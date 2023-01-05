@@ -2,4 +2,53 @@
     display: flex;
     background-color: aqua;
     list-style: none;
+    justify-content: space-between;
+    
+        
+
+}
+
+.profile_pic {
+    width: 250px;  
+
+
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: beige;
+}
+
+#about {
+    display: flex;
+
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 0 0 20%;
+    margin: 1em;
+}
+
+#contactparentcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: auto;
+    width: 50%;
+
+}
+
+@media (max-width: 760px) {
+    #portfolio {
+        background-color: brown;
+    }
+
+
 }
