@@ -80,12 +80,18 @@
     
 }
 .img {
-    display: flex;
     height: auto;
     width: 30%;
-    border: black 20px;
+    display: flex;
+    margin: auto;
 
 }
+.flex-grid {
+    display: flex;
+  }
+  .flex-grid .col {
+    flex: 1;
+  }
 
 footer {
     margin-top: 20px;
@@ -109,6 +115,9 @@ a:hover {
         display: none;
     }
     .nav_list {
+        display: block;
+    }
+    .flex-grid {
         display: block;
     }
 
