@@ -57,10 +57,9 @@
 #portfolio {
     display: block;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex-basis: 0 0 20%;
-    margin: 1em;
-    text-align: justify;
+    margin:20px;
+    text-align: center;
     
 }
 
@@ -75,7 +74,7 @@
 
 .img1 {
     height: auto;
-    width: 60%;
+    width: 40%;
     display: flex;
     margin: auto;
     
@@ -83,7 +82,7 @@
 .img {
     display: flex;
     height: auto;
-    width: 50%;
+    width: 30%;
     border: black 20px;
 
 }
@@ -109,6 +108,12 @@ a:hover {
     .profile_pic {
         display: none;
     }
+    .nav_list {
+        display: block;
+    }
+
+  
+       
     
 
 
