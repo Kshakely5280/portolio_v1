@@ -1,8 +1,25 @@
+*{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  
+}
+
+.text-center {
+    text-align: center;
+}
+.portfolio_title {
+    text-align: center;
+}
+
+
+
 .header{
     display: flex;
-    background-color: aqua;
+    background-color: grey;
     list-style: none;
     justify-content: space-between;
+    padding: 10px;
     
         
 
@@ -18,11 +35,13 @@
     display: flex;
     list-style: none;
     justify-content: space-around;
-    background-color: beige;
+    background-color: grey;
 }
 
 #about {
     display: flex;
+    background-color: grey;
+    padding: 10px;    
 
 }
 
@@ -32,16 +51,21 @@
     justify-content: space-between;
     flex-basis: 0 0 20%;
     margin: 1em;
+    
 }
 
 #contactparentcontainer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: grey;
 }
 
 .img {
+    flex-wrap: wrap;
     height: auto;
     width: 50%;
+    border: black 20px;
 
 }
 
