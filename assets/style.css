@@ -14,7 +14,7 @@
 
 
 
-.header{
+.header {
     display: flex;
     background-color: grey;
     list-style: none;
@@ -24,6 +24,12 @@
     
         
 
+}
+
+
+.header h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .profile_pic {
@@ -87,14 +93,21 @@ footer {
     text-align: center;
 }
 
+a:hover {
+    background-color: lightgreen;
+}
 
 
-@media (max-width: 760px) {
+
+@media (max-width: 466px) {
     #portfolio {
      display: inline-block;
     }
     #contactparentcontainer {
         display: block;
+    }
+    .profile_pic {
+        display: none;
     }
     
 
